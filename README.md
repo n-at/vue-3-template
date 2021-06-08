@@ -10,6 +10,8 @@ My opinionated Vue 3 project template. Included:
 * postcss (preset-env)
 * webpack loaders (vue, css, file)
 
+Download template: https://github.com/n-at/vue-3-template/archive/refs/heads/master.zip
+
 Install dependencies:
 
 ```bash
