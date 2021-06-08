@@ -1,4 +1,4 @@
-#Vue 3 template
+# Vue 3 project template
 
 My opinionated Vue 3 project template. Included:
 
@@ -34,6 +34,6 @@ Make production build:
 npm run build
 ```
 
-##License
+## License
 
 BSD-3-Clause
