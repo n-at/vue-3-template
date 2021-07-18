@@ -93,14 +93,6 @@ module.exports = (env, argv) => {
             },
         ],
     };
-    const imagesRule = {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: 'file-loader',
-    };
-    const fontsRule = {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: 'file-loader',
-    };
 
     ///////////////////////////////////////////////////////////////////////////
 
@@ -127,8 +119,6 @@ module.exports = (env, argv) => {
                 vueRule,
                 jsRule,
                 cssRule,
-                imagesRule,
-                fontsRule,
             ],
         },
 

@@ -46,7 +46,6 @@ Dev dependencies:
 * [eslint-webpack-plugin](https://www.npmjs.com/package/eslint-webpack-plugin)
 * [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin)
 * [css-minimizer-webpack-plugin](https://www.npmjs.com/package/css-minimizer-webpack-plugin)
-* [file-loader](https://www.npmjs.com/package/file-loader)
 * [css-loader](https://www.npmjs.com/package/css-loader)
 * [babel-loader](https://www.npmjs.com/package/babel-loader)
 * [vue-loader](https://www.npmjs.com/package/vue-loader)
