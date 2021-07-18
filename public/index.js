@@ -1,5 +1,6 @@
-import "core-js/stable";
-import "regenerator-runtime/runtime";
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import './index.css';
 
 import { createApp } from 'vue'
 

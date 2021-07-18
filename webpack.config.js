@@ -11,8 +11,6 @@ const ESLintWebpackPlugin = require('eslint-webpack-plugin');
 const developmentBuildPath = path.resolve(__dirname, 'public', 'build')
 const productionBuildPath = path.resolve(__dirname, 'public', 'build')
 
-const publicPath = '';
-
 const entries = {
     index: './public/index.js',
 }
@@ -54,7 +52,7 @@ module.exports = (env, argv) => {
     const babelPresetConfiguration = {
         "targets": "> 0.25%, not dead",
         "useBuiltIns": "entry",
-        "corejs": "3.8",
+        "corejs": "3.15",
     };
 
     //postcss options: https://webpack.js.org/loaders/postcss-loader/
@@ -85,12 +83,7 @@ module.exports = (env, argv) => {
     const cssRule = {
         test: /\.css$/,
         use: [
-            {
-                loader: MiniCssExtractPlugin.loader,
-                options: {
-                    publicPath: publicPath,
-                },
-            },
+            MiniCssExtractPlugin.loader,
             'css-loader',
             {
                 loader: "postcss-loader",
