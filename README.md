@@ -4,6 +4,7 @@ My opinionated Vue 3 project template. Included:
 
 * vue 3
 * vuex 4
+* vue-router 4
 * webpack
 * babel (preset-env)
 * eslint
@@ -61,6 +62,7 @@ Runtime dependencies:
 * [core-js](https://www.npmjs.com/package/core-js)
 * [regenerator-runtime](https://www.npmjs.com/package/regenerator-runtime)
 * [vue](https://www.npmjs.com/package/vue)
+* [vue-router](https://www.npmjs.com/package/vue-router)
 * [vuex](https://www.npmjs.com/package/vuex)
 
 ## License
