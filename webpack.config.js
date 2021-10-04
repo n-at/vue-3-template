@@ -52,7 +52,7 @@ module.exports = (env, argv) => {
     const babelPresetConfiguration = {
         "targets": "> 0.25%, not dead",
         "useBuiltIns": "entry",
-        "corejs": "3.15",
+        "corejs": "3.18",
     };
 
     //postcss options: https://webpack.js.org/loaders/postcss-loader/
